@@ -44,6 +44,8 @@ namespace MathLibrary
             _y = y;
         }
 
+
+
         public static Vector2 operator + (Vector2 lhs, Vector2 rhs)
         {
             float x = lhs.X + rhs.X;
